@@ -1,3 +1,8 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 html {
     background-color: white;
 }
@@ -20,8 +25,10 @@ img {
     filter: dropshadow(20px -20px 5px black);
 }
 
-.backdrop {
-    height: 484px;
-    width: 648px;
-    z-index: 0;
+.bd {
+  background-image: url(backgroundImage/vhBackdrop.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
